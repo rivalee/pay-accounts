@@ -19,12 +19,13 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 .division-header {
+  padding-top: 10px;
+  border-top: 1px solid $govuk-border-colour;
+  height: 50px;
 }
 
 .division-header h3 {
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid $govuk-border-colour;
+  margin-bottom: 15px;
 }
 
 .live-icon {
@@ -98,7 +99,7 @@ $govuk-assets-path: '/govuk/assets/';
 // nav links at top bit //
 
 .nav-block {
-  border-bottom: 1px solid govuk-colour("mid-grey");
+  border-bottom: 1px solid govuk-colour("light-grey");
   margin-top: -30px !important;
   margin-bottom: 50px;
   padding-bottom: -10px;
@@ -139,4 +140,8 @@ margin-bottom: 50px;}
 
 .onboarding-chunk {
   border: 5px solid $govuk-brand-colour;
+}
+
+.service-in-list {
+  padding: 20px 0 20px 0;
 }
