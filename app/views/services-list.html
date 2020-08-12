@@ -1,0 +1,83 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h2 class="govuk-heading-l">
+        You have 3 services
+      </h2>
+
+            <p>
+            <a href="#">View transactions for all live services</a>
+            </p>
+      <button class="govuk-button" data-module="govuk-button">
+  Add a new service
+</button>
+
+
+<!-- search bar placeholder
+<div class="govuk-form-group">
+  <input class="govuk-input" id="event-name" name="event-name" type="text">
+</div>
+-->
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="sort">
+    Sort by
+  </label>
+  <select class="govuk-select" id="sort" name="sort">
+    <option value="published">Recently published</option>
+    <option value="updated" selected>Recently updated</option>
+    <option value="views">Most views</option>
+    <option value="comments">Most comments</option>
+  </select>
+</div>
+
+
+
+
+<div class="division-header">
+  <div class="live-icon"></div>
+<h3  class="govuk-heading-s">Live</h3>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds-from-desktop">
+    <h2 class="govuk-heading-s">Fishing licence &nbsp;
+    <span  class="govuk-body-s"><a href="fishing-licence">Dashboard</a></h2>
+
+  </div>
+  <div class="govuk-grid-column-one-third-from-desktop">
+    <div class="service-metadata">
+<p class="govuk-body-s">
+  £450.00 in the last week
+  </br>7 team members</p>
+  </div>
+
+  </div>
+</div>
+
+<div class="division-header">
+  <div class="test-icon"></div>
+<h3  class="govuk-heading-s">Test</h3>
+</div>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds-from-desktop">
+    <h2 class="govuk-heading-s">Parking permit &nbsp;
+    <span  class="govuk-body-s"><a href="#">Dashboard</a></h2>
+  </div>
+  <div class="govuk-grid-column-one-third-from-desktop">
+    <div class="service-metadata">
+    <p class="govuk-body-s">
+      <a href="#">Request to go live</a>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

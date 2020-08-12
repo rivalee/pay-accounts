@@ -1,0 +1,47 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        GOV.UK Pay</h1>
+
+      <p>
+      Usability improvements to the services list page, adding a new service and the dashboard.
+      </p>
+
+
+      <h2 class="govuk-heading-m">Pages</h2>
+      <ol class="govuk-list govuk-list--number">
+        <li><a href="services-list">Services list page (3 services)</a></li>
+        <li><a href="services-list-2">Services list page (20 services)</a></li>
+        <li><a href="#">Adding a new service</a></li>
+        <li><a href="fishing-licence">Dashboard for a service (first time use)</a></li>
+        <li><a href="#">Dashboard for a service (regular use)</a></li>
+
+        </ol>
+      <p>We recommend you add links to your prototype to this page, rather than delete it.
+        You'll find this page in the kit at '/app/views/index.html'.</p>
+
+      <p>You can change the service name by editing the file '/app/config.js'.</p>
+
+      <h2 class="govuk-heading-m">Examples and documentation</h2>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>
+          <a href="/docs/tutorials-and-examples">Example pages and documentation</a>
+        </li>
+        <li>
+          <a href="https://design-system.service.gov.uk">GOV.UK Design System</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+{% endblock %}
