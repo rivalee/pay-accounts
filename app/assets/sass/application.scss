@@ -183,16 +183,16 @@ margin-bottom: 50px;}
 
 .onboarding-chunk {
   background: $govuk-brand-colour;
-  padding: 15px;
+  padding: 9px 7px 1px 7px;
 }
 .onboarding-chunk p {
   text-align: center;
   color: white !important;
-  padding-top: 10px;
+  padding-top: 7px;
 }
 
-.onboarding-chunk a, a:hover, a:visited {
-  color: white !important;
+.onboarding-chunk a {
+  color: white;
 }
 
 
