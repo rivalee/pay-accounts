@@ -119,29 +119,92 @@ float: left;
 }
 
 .chunk-payments {
-  border: 3px solid grey;
-  margin-right: 10px;
+  height: 64px;
+  border-left: 15px solid  $govuk-brand-colour;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-right: 4px;
+  background-color: #f3f2f1;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .chunk-refunds {
-  border: 3px solid grey;
-  margin-right: 10px;
+  height: 64px;
+  border-left: 15px solid  #d4351c;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-right: 4px;
+  background-color: #f3f2f1;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .chunk-income {
-  border: 3px solid grey;
-  margin-right: 10px;
+  height: 64px;
+  border-left: 15px solid  #0b0c0c;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin-right: 4px;
+  background-color: #f3f2f1;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
+
+.chunk-refunds p {
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 16px;
+}
+
+
+.chunk-income p {
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 16px;
+}
+
+.chunk-payments p {
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 16px;
+}
 
 .next-things-to-do {
   margin-top: 25px;
 margin-bottom: 50px;}
 
 .onboarding-chunk {
-  border: 5px solid $govuk-brand-colour;
+  background: $govuk-brand-colour;
+  padding: 15px;
 }
+.onboarding-chunk p {
+  text-align: center;
+  color: white !important;
+  padding-top: 10px;
+}
+
+.onboarding-chunk a, a:hover, a:visited {
+  color: white !important;
+}
+
 
 .service-in-list {
   padding: 20px 0 20px 0;
+}
+
+.dashboard-numbers-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sort-transactions {
+  padding-bottom: 50px;
 }
