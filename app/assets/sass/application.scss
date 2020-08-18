@@ -20,12 +20,11 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 .division-header {
   padding-top: 10px;
-  border-top: 1px solid $govuk-border-colour;
-  height: 50px;
+  height: 100px;
 }
 
 .division-header h3 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .live-icon {
@@ -197,7 +196,9 @@ margin-bottom: 50px;}
 
 
 .service-in-list {
-  padding: 20px 0 20px 0;
+  display: block;
+  margin-top: 55px;
+  margin-bottom: 45px;
 }
 
 .dashboard-numbers-container {
@@ -207,4 +208,46 @@ margin-bottom: 50px;}
 
 .sort-transactions {
   padding-bottom: 50px;
+}
+
+.filter-services-block {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+
+
+
+.net-income-summary-container {
+  float: right;
+  width: 145px;
+
+}
+
+.net-income-summary-container p {
+  padding-top: -5px;
+  text-align: left;
+}
+.net-income-summary {
+  height: 25px;
+  padding: 6px;
+  border-left: 5px solid  #0b0c0c;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-right: 4px;
+  margin-top: -15px;
+  background-color: #f3f2f1;
+}
+
+.net-income-summary p {
+  padding-top: 8px;
+  text-align: right;
+}
+
+
+.service-links {
+  float: left;
+  margin-top: -30px;
+  margin-left: 20px;
 }
