@@ -19,6 +19,7 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 .division-header {
+  border-top: 1px solid $govuk-border-colour;
   padding-top: 10px;
   height: 100px;
 }
@@ -230,6 +231,7 @@ margin-bottom: 50px;}
 }
 .net-income-summary {
   height: 25px;
+  width: 100px;
   padding: 6px;
   border-left: 5px solid  #0b0c0c;
   border-top: 1px solid grey;
@@ -238,6 +240,7 @@ margin-bottom: 50px;}
   margin-right: 4px;
   margin-top: -15px;
   background-color: #f3f2f1;
+  display: inline-block;
 }
 
 .net-income-summary p {
