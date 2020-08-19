@@ -38,7 +38,7 @@ $govuk-assets-path: '/govuk/assets/';
 	height: 20px;
 	border: 1px solid govuk-colour("green");
   background-color: govuk-colour("green");
-	border-radius: 50%
+	border-radius: 50%;
 }
 
 @media (min-width: 61.25em) {
@@ -97,26 +97,46 @@ $govuk-assets-path: '/govuk/assets/';
 
 
 // nav links at top bit //
+.navigation-links {
+  float: right;
+  text-align: center;
+}
+
+.navlink {
+  margin-right: 20px;
+}
 
 .nav-block {
-  border-bottom: 1px solid govuk-colour("light-grey");
+  border-bottom: 1px solid govuk-colour("mid-grey");
   margin-top: -30px !important;
   margin-bottom: 50px;
   padding-bottom: -10px;
   padding-bottom: 40px;
 }
 
+.nav-block p {
+    text-align: center;
+}
+
+.nav-block a, a:visited {
+    text-align: center;
+    text-decoration: none;
+}
 .nav-block h3 {
   margin-bottom: 5px;
 }
+
+.link-selected {
+  border-bottom: 4px solid black;
+  padding-bottom: 18px;
+}
+
 
 .service-title {
 float: left;
 }
 
-.navigation-links {
-  float: right;
-}
+
 
 .chunk-payments {
   height: 64px;
@@ -253,4 +273,18 @@ margin-bottom: 50px;}
   float: left;
   margin-top: -30px;
   margin-left: 20px;
+}
+
+
+
+.transactions-placeholder {
+  height: 100px;
+  width: 100%;
+  background-color: #f3f2f1;
+  margin: 15px;
+  padding: 10px;
+}
+
+.transactions-placeholder p {
+  text-align: center;
 }
