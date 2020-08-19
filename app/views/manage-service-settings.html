@@ -1,0 +1,99 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <div class="nav-block">
+        <div class="service-title">
+        <h3 class="govuk-heading-s"><a href="services-list">My services</a> > Fishing licence settings</h3>
+        </div>
+
+        </div>
+
+
+
+
+      <h2 class="govuk-heading-l">
+        Manage settings
+      </h2>
+      <div class="govuk-tabs" data-module="govuk-tabs">
+      <h2 class="govuk-tabs__title">
+        Contents
+      </h2>
+      <ul class="govuk-tabs__list">
+        <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+          <a class="govuk-tabs__tab" href="#past-day">
+            Service name
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#past-week">
+            Team members
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#past-month">
+            Organisation information
+          </a>
+        </li>
+      </ul>
+      <div class="govuk-tabs__panel" id="past-day">
+        <h2 class="govuk-heading-m">Edit service name</h2>
+      <p class="govuk-body-m">Changing your service name affects both live and test environments, including user-facing payment pages and emails.</p>
+
+      <div class="govuk-form-group">
+        <h1 class="govuk-label-wrapper"><label class="govuk-body-m" for="event-name">
+            Service name
+          </label>
+        </h1>
+        <input class="govuk-input" id="event-name" name="event-name" type="text">
+      </div>
+
+
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste">
+          Add a Welsh (Cymraeg) service name
+        </label>
+      </div>
+      </br>
+      <button class="govuk-button" data-module="govuk-button">
+        Save
+      </button>
+      </div>
+
+
+
+
+      </div>
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+        <h2 class="govuk-heading-l">Team members</h2>
+        <p class="govuk-body-m">Team member changes affect both live and test environments.</p>
+        <button class="govuk-button" data-module="govuk-button">
+          Invite a team member
+        </button>
+        <h2 class="govuk-heading-s">Administrators (1)</h2>
+        <p class="govuk-body-m"><a href="#">mireille.hawkins@digital.cabinet-office.gov.uk</a></p>
+        <h2 class="govuk-heading-s">View only (1)</h2>
+        <p class="govuk-body-m"><a href="#">edgar.fish@digital.cabinet-office.gov.uk</a></p>
+      </div>
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-month">
+        <h2 class="govuk-heading-l">Organisation details</h2>
+        <p class="govuk-body-m">Payment card schemes require the details of the organisation taking payment to be shown on payment pages.</p>
+
+      </div>
+
+
+      </div>
+    </div>
+
+
+{% endblock %}
