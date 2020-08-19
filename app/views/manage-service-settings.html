@@ -8,8 +8,6 @@
 {% block content %}
 
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-
       <div class="nav-block">
         <div class="service-title">
         <h3 class="govuk-heading-s"><a href="services-list">My services</a> > Fishing licence settings</h3>
@@ -46,6 +44,7 @@
       </ul>
       <div class="govuk-tabs__panel" id="past-day">
         <h2 class="govuk-heading-m">Edit service name</h2>
+        <div class="input-wrapper">
       <p class="govuk-body-m">Changing your service name affects both live and test environments, including user-facing payment pages and emails.</p>
 
       <div class="govuk-form-group">
@@ -55,7 +54,7 @@
         </h1>
         <input class="govuk-input" id="event-name" name="event-name" type="text">
       </div>
-
+      </div>
 
     <div class="govuk-checkboxes">
       <div class="govuk-checkboxes__item">
