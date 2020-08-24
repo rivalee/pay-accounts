@@ -218,7 +218,7 @@ margin-bottom: 50px;}
 
 .service-in-list {
   display: block;
-  margin-top: 55px;
+  margin-top: 5px;
   margin-bottom: 45px;
 }
 
@@ -231,12 +231,19 @@ margin-bottom: 50px;}
   padding-bottom: 50px;
 }
 
-.filter-services-block {
-  padding-top: 20px;
-  padding-bottom: 0px;
+
+.search-controls {
+  display: block;
+  height: 150px;
 }
 
 
+.filter-services-block {
+  float: left;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
 
 
 .net-income-summary-container {
@@ -246,7 +253,8 @@ margin-bottom: 50px;}
 }
 
 .net-income-summary-container p {
-  padding-top: -5px;
+  padding-top: -10px;
+  padding-bottom: 7px;
   text-align: left;
 }
 .net-income-summary {
@@ -272,7 +280,7 @@ margin-bottom: 50px;}
 .service-links {
   float: left;
   margin-top: -30px;
-  margin-left: 20px;
+  margin-left: 17px;
   width: 250px;
 }
 
@@ -302,10 +310,14 @@ margin-bottom: 50px;}
 }
 
 .sortblockcontainer {
+  padding-top: 35px;
   display: block;
-  height: 75px;
 }
 
 .sortblock {
   float: right;
+}
+
+.service-archive {
+  
 }

@@ -22,29 +22,36 @@
             </p>
 
 
-<div class="filter-services-block">
-  <h3 class="govuk-heading-s">Filter services</h3>
-<div class="govuk-form-group">
-  <input class="govuk-input" id="event-name" name="event-name" type="text">
-</div>
+<div class="search-controls">
+  <div class="filter-services-block">
+    <h3 class="govuk-heading-s">Filter services</h3>
+  <div class="govuk-form-group">
+    <input class="govuk-input" id="event-name" name="event-name" type="text">
+  </div>
+  </div>
+
+
+  <div class="sortblockcontainer">
+  <div class="sortblock">
+
+  <div class="govuk-form-group">
+    <label class="govuk-label" for="sort">
+    Net income
+    </label>
+    <select class="govuk-select" id="sort" name="sort">
+      <option value="published">Last 3 months</option>
+      <option value="updated">Last month</option>
+      <option value="views">Last week</option>
+      <option value="comments" selected>Last day</option>
+    </select>
+  </div>
+  </div>
+  </div>
+
 </div>
 
-<div class="sortblockcontainer">
-<div class="sortblock">
 
-<div class="govuk-form-group">
-  <label class="govuk-label" for="sort">
-  Show
-  </label>
-  <select class="govuk-select" id="sort" name="sort">
-    <option value="published">Last 3 months</option>
-    <option value="updated">Last month</option>
-    <option value="views">Last week</option>
-    <option value="comments" selected>Last day</option>
-  </select>
-</div>
-</div>
-</div>
+
 <!--
 <div class="division-header">
   <div class="live-icon"></div>
@@ -63,7 +70,7 @@
 
         <div class="net-income-summary-container">
           <p class="govuk-!-font-size-14">
-            Net income (Live)
+            Net income
           </p>
           <div class="net-income-summary">
             <p class="govuk-!-font-size-16">
@@ -109,7 +116,7 @@
       <div class="service-links">
         <p class="govuk-heading-s">
           <a href="fishing-licence">Live WorldPay dashboard</a></br>
-          <span class="govuk-body-s"><a href="#">Test Sandbox dashboard</a></p>
+          <span class="govuk-body-s"><a href="#">Test dashboard</a></p>
           </div>
         </div>
   </div>
@@ -145,7 +152,7 @@
   <div class="govuk-grid-column-one-third-from-desktop">
       <div class="service-links">
         <p class="govuk-body-s">
-            </br><a href="#">Test WorldPay dashboard</a></p>
+            </br><a href="#">Test dashboard</a></p>
           </div>
         </div>
   </div>
@@ -185,6 +192,9 @@
   </div>
 </div>
 
+<div class="service-archive">
+  <p class="govuk-body-m"><a href="#">View archived services</a>
+</div>
 
 
 
