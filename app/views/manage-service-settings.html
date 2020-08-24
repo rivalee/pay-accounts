@@ -10,7 +10,7 @@
   <div class="govuk-grid-row">
       <div class="nav-block">
         <div class="service-title">
-        <h3 class="govuk-heading-s"><a href="services-list">My services</a> > Service settings</h3>
+        <h3 class="govuk-heading-s"><a href="services-list">My services</a> >  settings</h3>
         </div>
 
         </div>
@@ -27,22 +27,27 @@
       </h2>
       <ul class="govuk-tabs__list">
         <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
-          <a class="govuk-tabs__tab" href="#past-day">
+          <a class="govuk-tabs__tab" href="#name">
             Service name
           </a>
         </li>
         <li class="govuk-tabs__list-item">
-          <a class="govuk-tabs__tab" href="#past-week">
+          <a class="govuk-tabs__tab" href="#team">
             Team members
           </a>
         </li>
         <li class="govuk-tabs__list-item">
-          <a class="govuk-tabs__tab" href="#past-month">
-            Organisation information
+          <a class="govuk-tabs__tab" href="#organisation">
+            Organisation details
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#delete">
+            Delete or archive service
           </a>
         </li>
       </ul>
-      <div class="govuk-tabs__panel" id="past-day">
+      <div class="govuk-tabs__panel" id="name">
         <h2 class="govuk-heading-m">Edit service name</h2>
         <div class="input-wrapper">
       <p class="govuk-body-m">Changing your service name affects both live and test environments, including user-facing payment pages and emails.</p>
@@ -73,7 +78,7 @@
 
 
       </div>
-      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="team">
         <h2 class="govuk-heading-m">Team members</h2>
         <p class="govuk-body-m">Team member changes affect both live and test environments.</p>
         <button class="govuk-button" data-module="govuk-button">
@@ -84,12 +89,15 @@
         <h2 class="govuk-heading-s">View only (1)</h2>
         <p class="govuk-body-m"><a href="#">edgar.fish@digital.cabinet-office.gov.uk</a></p>
       </div>
-      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-month">
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="organisation">
         <h2 class="govuk-heading-m">Organisation details</h2>
         <p class="govuk-body-m">Payment card schemes require the details of the organisation taking payment to be shown on payment pages.</p>
-
       </div>
 
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="delete">
+        <h2 class="govuk-heading-m">Delete or archive service</h2>
+        <p class="govuk-body-m">...</p>
+      </div>
 
       </div>
     </div>
