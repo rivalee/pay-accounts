@@ -217,7 +217,6 @@ margin-bottom: 50px;}
 
 
 .service-in-list {
-  display: block;
   margin-top: 5px;
   margin-bottom: 45px;
 }
@@ -240,7 +239,7 @@ margin-bottom: 50px;}
 
 .filter-services-block {
   float: left;
-  width: 70%;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 0px;
 }
@@ -249,7 +248,26 @@ margin-bottom: 50px;}
 .net-income-summary-container {
   float: right;
   width: 145px;
+}
 
+.service-links-1 {
+  float: left;
+  margin-top: -10px;
+  margin-left: 17px;
+  width: 350px;
+  display: inline-block;
+  margin-top: -60px;
+}
+
+.service-links-1 p {
+}
+
+.service-links-2 {
+  margin-top: -10px;
+  margin-right: 15px;
+  float: right;
+  width: 245px;
+  text-align: right;
 }
 
 .net-income-summary-container p {
@@ -279,11 +297,29 @@ margin-bottom: 50px;}
 
 .service-links {
   float: left;
-  margin-top: -30px;
+  margin-top: -10px;
   margin-left: 17px;
-  width: 250px;
+  width: 400px;
+  display: inline-block;
 }
 
+.dash-worldpay {
+  background: govuk-colour("light-grey");
+  color: black;
+  padding: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 10px;
+}
+
+.dash-stripe {
+  background:  govuk-colour("light-grey");
+  color: black;
+  padding: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 10px;
+}
 
 
 .transactions-placeholder {
@@ -306,7 +342,7 @@ margin-bottom: 50px;}
 .user-research {
   border: 10px solid green;
   padding: 30px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .sortblockcontainer {
@@ -319,5 +355,9 @@ margin-bottom: 50px;}
 }
 
 .service-archive {
-  
+}
+
+.add-a-service {
+text-align: right;
+margin-bottom: 20px;
 }
