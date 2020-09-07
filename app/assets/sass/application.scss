@@ -361,3 +361,46 @@ margin-bottom: 50px;}
 text-align: left;
 margin-bottom: 20px;
 }
+
+
+
+// nav level 2 from GOV.UK Design System homepage //
+
+.nav-level-2 {
+  background: #f8f8f8;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.nav-level-2-item  a, a:active, a:visited {
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.nav-level-2-item  a:hover {
+  text-decoration: underline !important;
+}
+
+
+.nav-level-2-item {
+  display: inline-block;
+  margin: -5px 10px 0px 10px;
+}
+
+
+.nav-level-2-item {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+
+.nav-level-2-item p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.nav-selected {
+  border-bottom: 4px solid govuk-colour("blue");
+  padding-left: 30px;
+  padding-right: 30px;
+margin-left: 0px;
+}
