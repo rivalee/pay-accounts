@@ -40,11 +40,31 @@
 {% block header %}
   {% include "includes/cookie-banner.html" %}
   {# Set serviceName in config.js. #}
+  {% from "govuk/components/header/macro.njk" import govukHeader %}
+
   {{ govukHeader({
+    productName: "Pay",
     homepageUrl: "/",
-    serviceName: serviceName,
-    serviceUrl: "/",
-    containerClasses: "govuk-width-container"
+    serviceUrl: "#",
+    navigation: [
+      {
+        href: "#1",
+        text: "My services",
+        active: true
+      },
+      {
+        href: "#2",
+        text: "My profile"
+      },
+      {
+        href: "#3",
+        text: "Documentation"
+      },
+      {
+        href: "#4",
+        text: "Sign out"
+      }
+    ]
   }) }}
 {% endblock %}
 
